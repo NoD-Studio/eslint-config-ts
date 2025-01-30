@@ -1,6 +1,6 @@
 {
   "name": "@nodstudio/eslint-config-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint configuration for TypeScript from NOD Studio",
   "main": "index.js",
   "author": "NOD Studio",
