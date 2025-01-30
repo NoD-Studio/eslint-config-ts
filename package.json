@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "NOD Studio",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": ["eslint", "eslintconfig"],
   "peerDependencies": {
     "@eslint/js": ">= 9.19.0",
     "eslint": ">= 9.19.0",
