@@ -1,29 +1,12 @@
 import { default as eslint } from "@eslint/js";
-import typescriptParser from "@typescript-eslint/parser";
 import importPlugin from "eslint-plugin-import";
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
-import globals from "globals";
 import tseslint from "typescript-eslint";
 
 export default [
   ...tseslint.config(
     eslint.configs.recommended,
     tseslint.configs.recommended,
-    {
-      files: ["**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}"],
-      settings: {
-        react: {
-          version: "detect",
-        },
-      },
-      languageOptions: {
-        parser: typescriptParser,
-        globals: {
-          ...globals.serviceworker,
-          ...globals.browser,
-        },
-      },
-    },
     {
       rules: {
         "@typescript-eslint/no-duplicate-enum-values": "off",

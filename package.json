@@ -1,6 +1,6 @@
 {
   "name": "@nodstudio/eslint-config-ts",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "ESLint configuration for TypeScript from NOD Studio",
   "main": "index.js",
   "author": "NOD Studio",
@@ -18,9 +18,12 @@
   ],
   "dependencies": {
     "@eslint/js": ">= 9.19.0",
-    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-import": ">= 2.31.0",
     "eslint-plugin-prettier": ">= 5.2.3",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3",
     "typescript-eslint": ">= 8.22.0"
   },
   "peerDependencies": {
