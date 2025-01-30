@@ -1,14 +1,21 @@
 {
-  "name": "@nodstudio/eslint-config-react",
+  "name": "@nodstudio/eslint-config-ts",
   "version": "1.0.0",
   "description": "ESLint configuration for TypeScript from NOD Studio",
   "main": "index.js",
   "author": "NOD Studio",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoD-Studio/eslint-config-ts.git"
+  },
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
-  "keywords": ["eslint", "eslintconfig"],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "peerDependencies": {
     "@eslint/js": ">= 9.19.0",
     "eslint": ">= 9.19.0",
