@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "ESLint configuration for TypeScript from NOD Studio",
   "main": "index.js",
+  "type": "module",
   "author": "NOD Studio",
   "repository": {
     "type": "git",
